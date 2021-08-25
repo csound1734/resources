@@ -1,0 +1,1 @@
+gifreqs ftgen 0,0,8,-2,0,5, semitone(15), semitone(6), semitone(19), 1, semitone(3), 2

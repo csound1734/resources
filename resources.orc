@@ -6,3 +6,14 @@ iN lenarray Sall
 xout iN, Sall
  endop
  
+ 
+   opcode resourcesBox, iS[], SSp
+  Sext, Schan, idefault xin
+  Sext strcat ".", Sext
+  Spopcode sprintf "populate(\"*%s\", \"resources\")", Sext 
+  cabbageSet Schan, Spopcode
+  iN, Sres[] Resources Sext
+  cabbageSetValue Schan, idefault
+  xout iN, Sres
+   endop
+
